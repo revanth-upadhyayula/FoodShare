@@ -260,7 +260,7 @@ export default function CreatePost() {
                           <MapPinIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                           <Input 
                             className="pl-10"
-                            placeholder="Enter address or area" 
+                            placeholder="Enter your address or area" 
                             {...field} 
                           />
                         </div>

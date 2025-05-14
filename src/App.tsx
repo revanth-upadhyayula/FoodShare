@@ -11,7 +11,6 @@ import CreatePost from "./pages/CreatePost";
 import Profile from "./pages/Profile";
 import HowItWorks from "./pages/HowItWorks";
 import NotFound from "./pages/NotFound";
-import MapPage from "@/pages/Map";
 
 const queryClient = new QueryClient();
 
@@ -29,7 +28,6 @@ const App = () => (
             <Route path="/create" element={<CreatePost />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
-            <Route path="/map" element={<MapPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

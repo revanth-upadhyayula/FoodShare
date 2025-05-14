@@ -35,9 +35,6 @@ export default function Header() {
           <Link to="/browse" className="text-foreground/80 hover:text-foreground transition-colors">
             Browse
           </Link>
-          <Link to="/map" className="text-foreground/80 hover:text-foreground transition-colors">
-            Map
-          </Link>
           <Link to="/how-it-works" className="text-foreground/80 hover:text-foreground transition-colors">
             How It Works
           </Link>
@@ -96,13 +93,6 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Browse
-            </Link>
-            <Link 
-              to="/map" 
-              className="px-2 py-1 rounded-md hover:bg-muted transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Map
             </Link>
             <Link 
               to="/how-it-works" 

@@ -3,7 +3,7 @@
 FoodShare is a community-driven platform that connects food donors with those in need, helping reduce food waste while supporting our community.
 
 
-**URL**: https://lovable.dev/projects/ddb46a55-ac81-4d53-9dfa-343c0962f8ad
+**URL**: https://food-share-flax.vercel.app/
 
 
 

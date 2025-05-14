@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .foodshare-badge {
+    @apply px-2 py-1 text-xs rounded-full;
+  }
+  
+  .foodshare-badge-donate {
+    @apply bg-green-100 text-green-800;
+  }
+  
+  .foodshare-badge-request {
+    @apply bg-blue-100 text-blue-800;
+  }
+  
+  .foodshare-badge-claimed {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+  
+  .foodshare-badge-completed {
+    @apply bg-purple-100 text-purple-800;
+  }
+  
+  .foodshare-badge-expired {
+    @apply bg-gray-100 text-gray-800;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #f1f8e9 100%);
+}
